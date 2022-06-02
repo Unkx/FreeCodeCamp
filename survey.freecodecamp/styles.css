@@ -1,0 +1,30 @@
+html {
+  background-image: url('https://images5.alphacoders.com/613/613927.jpg');
+  background-position: center;
+  background-size: cover;
+}
+#title {
+  text-align:center;
+  color:gray;
+  font-family:'Open Sans',cursive;
+  font-size:40px;
+}
+#description {
+  font-size:22px;
+  color:yellow;
+  font-family:'Source Sans Pro',cursive;
+  text-align:center;
+}
+#survey-form {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  background:10px #bff;
+  width: 301px;
+
+  border: 1.4px solid #000;
+  box-shadow:4px 4px 2px #e7bbff;
+}
+#name {
+  margin:20px 0px 20px 0px
+}

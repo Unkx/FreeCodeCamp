@@ -1,0 +1,71 @@
+<html>
+    <link rel="stylesheet" href="styles.css">
+
+    <header>
+      <h1 id="title">Short survey</h1>
+      <p id="description"><i>Welcome to Our short short survey!</i></p>
+    </header>
+    <form id="survey-form">
+    <div class="email">
+      <label id='name-label'>Name:</label>
+      <br>
+      <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
+    </div>
+    <div>
+      <label id='email-label'>E-mail:</label>
+      <input id='email'  type='email'name='email'
+      class='form-control'
+      placeholder='Enter Your E-mail' required=''>
+      </div>
+    <div>
+      <label id='number-label'>What's Your Age:</label>
+      <input type='number' name='number'placeholder='enter' id='number' min='8'
+        max='70'</input>
+    </div>
+    <div>
+      <p>Which Pokémon is your favourite one?</p>
+      <select id='dropdown'>
+        <option value='a'>Pikachu</option>
+        <option value='b'>Charmander</option>
+        <option value='c'>Squirtle</option>
+        <option value='d'>Bulbasaur</option>
+      </select>
+
+    </div>
+    <div>
+      <h4>Which Pokémon region do You like?</h4>
+      <input type='radio' value='radio' name='radio'>Kanto</input>
+      <br>
+      <input type='radio' value='radio' name='radio'>Sevil Island</input>
+      <br>
+      <input type='radio' value='radio' name='radio'>Johnto</input>
+      <br>
+      <input type='radio' value='radio' name='radio'>Isle of Armour</input>
+    </div>
+    <div>
+      <p>Which type of Pokémon do You like?</p>
+      <input type='checkbox' value='checkbox' name='checkbox'>Poison</input>
+      <br>
+      <input type='checkbox' value='checkbox' name='checkbox'>Electra</input>
+      <br>
+      <input type='checkbox' value='checkbox' name='checkbox'>Water</input>
+      <br>
+      <input type='checkbox' value='checkbox' name='checkbox'>Ground</input>
+      <br>
+      <input type='checkbox' value='checkbox' name='checkbox'>Fire</input>
+      <br>
+      <input type='checkbox' value='checkbox' name='checkbox'>Rock</input>
+      <br>
+      <input type='checkbox' value='checkbox' name='checkbox'>Flying</input>
+      <br>
+      <input type='checkbox' value='checkbox' name='checkbox'>Ghost</input>
+      <br>
+      <input type='checkbox' value='checkbox' name='checkbox'>Psycho</input>
+      <br>
+    </div>
+    <div>
+      <p>Why do You love Pokémons?</p>
+      <textarea>Type place</textarea>
+      <button id='submit' type='submit'>Accept</button>
+    </form>
+  </html>
